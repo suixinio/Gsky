@@ -1,0 +1,9 @@
+[server]
+# debug 开发模式  ，release 生产模式
+AppMode = debug
+HttpPort = :3001
+JwtKey = 123456789
+
+[fs]
+SavePath = "./tmp/"
+FileSize = 10*1024*1024
